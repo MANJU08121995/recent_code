@@ -1,0 +1,37 @@
+public class Main
+{
+public String OverrideM(String rf){
+return "1";
+}
+public String OverrideM(Object rf){
+return "2";
+}
+public static void main(String[] args) {
+Main main=new Main();
+System.out.println(main.OverrideM(null));
+}
+}
+================================
+================================
+public class A {
+public static void main(String[] args)
+{
+if (true)
+break;
+}
+}
+================================
+================================
+public class Demo{
+public static void main(String[] arr){
+}
+public static void main(String arr){
+}
+}
+
+String s = "Mumbai";
+String s1 ="mumbai";
+
+reverse of a string "java concept";
+
+
